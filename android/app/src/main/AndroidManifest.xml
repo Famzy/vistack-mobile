@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vistacks.app.vistacks">
+    package="com.vistacks.admin">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="VISTACKS"
+        android:label="VISTACKS ADMIN"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

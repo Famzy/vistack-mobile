@@ -1,4 +1,4 @@
-package com.vistacks.app.vistacks
+package com.vistacks.admin
 
 import io.flutter.embedding.android.FlutterActivity
 
