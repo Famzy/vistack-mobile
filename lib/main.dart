@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 void main() {
@@ -82,9 +83,7 @@ class IndexState extends State<Index> {
           ),
           if (isLoading)
             Center(
-                child: Platform.isAndroid
-                    ? const CircularProgressIndicator()
-                    : const CupertinoActivityIndicator()),
+    child: Lottie.asset('assets/spinner.json')),
         ],
       ),
     );
