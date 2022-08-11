@@ -59,7 +59,7 @@ class IndexState extends State<Index> {
               javascriptMode: JavascriptMode.unrestricted,
               onWebViewCreated: (WebViewController webViewController) async {
                 webViewController = webViewController;
-                await webViewController.loadUrl('https://vistacks.com/app/');
+                await webViewController.loadUrl('https://vistacks.com/app');
               },
               onPageStarted: (String url) {
                 setState(() {

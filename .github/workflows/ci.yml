@@ -1,5 +1,8 @@
 name: CI
 on:
+  push:
+    branches:
+      -  client-app
   pull_request:
     branches:
       -  client-app
